@@ -61,7 +61,7 @@ desired effect
     <header class="main-header">
 
       <!-- Logo -->
-      <a href="index2.html" class="logo">
+      <a href="../../index.html" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
         <span class="logo-mini">
           <b>U</b>PI</span>
@@ -170,37 +170,48 @@ desired effect
 
         <!-- Sidebar Menu -->
         <ul class="sidebar-menu" data-widget="tree">
-          <li class="header">HEADER</li>
-          <!-- Optionally, you can add icons to the links -->
-          <li class="active">
-            <a href="#">
-              <i class="fa fa-link"></i>
-              <span>Link</span>
+          <li class="header">MAIN NAVIGATION</li>
+          <li class="active treeview">
+            <a href="../../index.html">
+              <i class="fa fa-dashboard"></i>
+              <span>Dashboard</span>
             </a>
           </li>
+
           <li>
-            <a href="#">
-              <i class="fa fa-link"></i>
-              <span>Another Link</span>
+            <a href="pages/tables/inventaris.html">
+              <i class="fa fa-th"></i>
+              <span>Data Ruangan</span>
             </a>
           </li>
+
           <li class="treeview">
             <a href="#">
-              <i class="fa fa-link"></i>
-              <span>Multilevel</span>
+              <i class="fa fa-th"></i>
+              <span>Inventaris</span>
               <span class="pull-right-container">
                 <i class="fa fa-angle-left pull-right"></i>
               </span>
             </a>
             <ul class="treeview-menu">
               <li>
-                <a href="#">Link in level 2</a>
+                <a href="inventaris-ruangan.html">
+                  <i class="fa fa-home"></i> Ruangan</a>
               </li>
               <li>
-                <a href="#">Link in level 2</a>
+                <a href="inventaris-barang.html">
+                  <i class="fa fa-reorder"></i> Daftar Barang</a>
               </li>
             </ul>
           </li>
+
+          <li>
+            <a href="persediaan.html">
+              <i class="fa fa-book"></i>
+              <span>Persediaan Barang</span>
+            </a>
+          </li>
+
         </ul>
         <!-- /.sidebar-menu -->
       </section>
@@ -212,7 +223,7 @@ desired effect
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Tambah Ruangan
+          Tambah Barang
         </h1>
         <ol class="breadcrumb">
           <li>
@@ -226,33 +237,38 @@ desired effect
       <!-- Main content -->
       <section class="content container-fluid">
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-md-12 col-sm-12 col-xs-4">
             <div class="box box-primary">
               <div class="box-header with-border">
-                <h3 class="box-title">Quick Example</h3>
+                <h3 class="box-title"> Barang Inventaris</h3>
               </div>
               <!-- /.box-header -->
               <!-- form start -->
               <form role="form">
                 <div class="box-body">
                   <div class="form-group">
-                    <label for="exampleInputEmail1">Email address</label>
-                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                    <label for="exampleInputEmail1">Nama Barang</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Nama Barang">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputPassword1">Password</label>
-                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                    <label for="exampleInputEmail1">Merk / Type</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Merk / Type">
                   </div>
                   <div class="form-group">
-                    <label for="exampleInputFile">File input</label>
-                    <input type="file" id="exampleInputFile">
-
-                    <p class="help-block">Example block-level help text here.</p>
+                    <label for="exampleInputEmail1">Kode Barang</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Kode Barang">
                   </div>
-                  <div class="checkbox">
-                    <label>
-                      <input type="checkbox"> Check me out
-                    </label>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Tahun</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Tahun">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Jumlah</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Jumlah">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Keterangan</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Keterangan">
                   </div>
                 </div>
                 <!-- /.box-body -->
